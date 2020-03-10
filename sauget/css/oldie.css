@@ -1,0 +1,12 @@
+.header-top a:hover,.tabs-head li.active a,.btn-others li a:hover,.home-4 .nav > li > a:hover, .home-4 .nav .open > a:hover, .home-4 .nav .open > a:focus, .home-4 .nav > li > a:focus, .home-4 .nav .open > a, .home-4 .navbar-main .nav > li.open > a,.product-price,.top-product-price,.btn-others-list li a:hover,.blog-post-col:hover .blog-post a,.special-box:hover a,.footer-widget h5,ul.use_link a:hover,.pposts-info a:hover,.contact_purchase > li a:hover,.footer-menu a:hover,.active a  {
+  color: #E14C4C;
+}
+.btn-others li a:hover,.btn-others-list li a:hover,.socila_icon a:hover  {
+  border: 1px solid #E14C4C;
+}
+.btn-add-to-cart {
+  background: none repeat scroll 0 0 rgba(225, 76, 76, 0.8);
+}
+.btn-add-to-cart:hover,.testyslider .flex-control-paging li a.flex-active,.post-meta-home > a,.special-box:hover .special-icon,.socila_icon a:hover {
+  background: none repeat scroll 0 0 #E14C4C;
+}

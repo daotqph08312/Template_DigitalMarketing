@@ -1,0 +1,2082 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Basic page needs
+		============================================ -->
+		<title>Sauget | Product Grid View</title>
+		<meta charset="utf-8">
+		<meta name="author" content="">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Mobile specific metas
+		============================================ -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Favicon
+		============================================ -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+		<!-- Google web fonts
+		============================================ -->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:300,900' rel='stylesheet' type='text/css'>
+		
+
+		<!-- Bootstrap CSS
+		============================================ -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<!-- Libs CSS
+		============================================ -->
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="lib/flexslider/flexslider.css">
+		<link href="lib/rs-plugin/css/settings.css" rel="stylesheet">
+		
+		<!-- jQuery ui css
+		============================================ -->
+		<link href="css/jquery-ui.css" rel="stylesheet">
+		
+		<!-- Theme CSS
+		============================================ -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- Color CSS
+		============================================ -->
+		<link rel="stylesheet" href="css/pantone.css">	
+		
+		<!-- Old IE stylesheet
+		============================================ -->
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" type="text/css" href="css/oldie.css">
+		<![endif]-->
+		
+	</head>
+	<body class="home-2">
+		<!-- HEADER -->
+        <header id="header">
+			
+			<div class="topbar">
+			<!-- HEADER TOP -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-9">
+							<!-- HEADER TOP MENU -->
+                            <div class="header-top-menu">
+                                <ul class="list-unstyled list-inline">
+                                    <li class="dropdown dropdown-small">
+                                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#">English <i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Dutch</a></li>
+                                            <li><a href="#">French</a></li>
+                                            <li><a href="#">German</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="dropdown dropdown-small">
+                                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#">USD <i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">AUS</a></li>
+                                            <li><a href="#">INR</a></li>
+                                            <li><a href="#">GBP</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="dropdown dropdown-small">
+                                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#">Account <i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Logout</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href=""><i class="fa fa-heart"></i> Wishlist</a></li>
+                                    <li><a href=""><i class="fa fa-heart"></i> Check out</a></li>
+                                </ul>
+                            </div>
+							<!-- HEADER TOP MENU -->
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-3">
+							<!-- SHOPPING CART -->
+							<div class="shopping-cart floatright">
+								<a title="View your shopping cart" href="" class="cart-contents">
+									<span class="count">0 items</span>
+									&#45;
+									<span class="amount">£0.00</span>
+								</a>
+							</div>
+							<!-- SHOPPING CART -->
+                        </div>
+						
+						<div class="col-md-12 search-div">
+							<!-- SECRCH FORM -->
+							<div class="header-search-form text-right">
+								<form>
+									<input type="text" placeholder="Enter your keyword...">
+									<button type="submit"><i class="fa fa-search"></i></button>
+								</form>
+							</div>
+							<!-- SECRCH FORM -->
+						</div>
+                    </div>
+                </div>
+            </div>
+            <!-- HEADER TOP -->
+			</div>
+			<a href="#" class="topbar-btn" onclick="return false;"></a>
+			<!-- HEADER -->
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo/logo-home-2.png" alt=""></a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 search-div">
+									<!-- SECRCH FORM -->
+									<div class="header-search-form text-right">
+										<form>
+											<input type="text" placeholder="Enter your keyword...">
+											<button type="submit"><i class="fa fa-search"></i></button>
+										</form>
+									</div>
+									<!-- SECRCH FORM -->
+                                </div>
+								
+                                <div class="col-md-12 col-sm-12">
+									<!-- DESKTOP NAVIGATION -->
+									<nav role="navigation" class="navbar sauget  navbar-main">
+										<div class="bigmenu">
+											<div class="navbar-collapse collapse" id="navbar-collapse-1">
+												<ul class="nav navbar-nav navbar-right">
+													<!-- Classic list -->
+													<li class="menuBB"><a href="index.html">Home</a>
+														<ul class="sub-menu-drop">
+															<li><a href="index-2.html">Home Version 2</a></li>
+															<li><a href="index-3.html">Home Version 3</a></li>
+															<li><a href="index-4.html">Home Version 4</a></li>
+														</ul>													
+													</li>
+													<li class="menuBB"><a href="gird.html">Man</a></li>
+													<li class="dropdown sauget-fw menuBB"><a class="dropdown-toggle" data-toggle="dropdown" href="list.html">women</a>
+														<ul class="dropdown-menu list-unstyled  fadeInUp animated">
+															<li>
+																<div class="sauget-content">
+																	<div class="row">
+																		<div class="col-md-3 col-sm-3">
+																			<div class="header-menu">
+																				<h4>women bag</h4>
+																			</div> 
+																			<ul class="list-unstyled">
+																				<li><a href="list.html"> bag items </a></li>
+																				<li><a href="list.html"> bag items </a></li>
+																				<li><a href="list.html"> bag items </a></li>
+																				<li><a href="list.html"> bag items </a></li>
+																				<li><a href="list.html"> bag items </a></li>
+																				<li><a href="list.html"> bag items </a></li>
+																			</ul>
+																		</div>
+
+
+																		<div class="col-md-3 col-sm-3">
+																			<div class="header-menu">
+																				<h4>Accessories</h4>
+																			</div>
+																			<ul class="list-unstyled">
+																				<li><a href="gird.html"><i class="fa fa-angle-right"></i> Accessories 1 </a></li>
+																				<li><a href="gird.html"><i class="fa fa-angle-right"></i> Accessories 2 </a></li>
+																				<li><a href="gird.html"><i class="fa fa-angle-right"></i> Accessories 3 </a></li>
+																				<li><a href="gird.html"><i class="fa fa-angle-right"></i> Accessories 4</a></li>
+																			</ul>
+																		</div>
+																		<div class="col-md-3 col-sm-3">
+																			<div class="header-menu">
+																				<h4>Woman Dresses</h4>
+																			</div>
+																			<ul class="list-unstyled">
+																				<li>
+																					<a href="gird.html"><i class="fa fa-shopping-cart"></i> Dresses 1 </a>
+																				</li>
+																				<li>
+																					<a href="gird.html"><i class="fa fa-check"></i> Dresses 2 </a>
+																				</li>
+																				<li>
+																					<a href="gird.html"><i class="fa fa-tasks"></i> Dresses 3 </a>
+																				</li>
+																				<li>
+																					<a href="gird.html"><i class="fa fa-random"></i> Dresses 4 </a>
+																				</li>
+																				<li>
+																					<a href="gird.html"><i class="fa fa-heart"></i>  Dresses 5 </a>
+																				</li>
+																			</ul>
+																		</div>
+																		<div class="col-md-3 col-sm-3">
+																			<div class="banner">
+																				<a href="#">
+																					<img alt="" src="img/widget/1.jpg">
+																				</a> 
+																			</div>
+																		</div>
+																	</div>
+
+																</div>
+															</li>
+														</ul>
+													</li>
+
+													<!-- With content -->
+													<li class="dropdown sauget-fw menuBB"><a class="dropdown-toggle" data-toggle="dropdown" href="gird.html">Fashion</a>
+														<ul class="dropdown-menu list-unstyled  fadeInUp animated">
+															<li>
+																<div class="sauget-content">
+																	<div class="row">
+																		<div class="col-md-3">
+																			<div class="header-menu">
+																				<h4>Women</h4>
+																			</div> 
+																			<ul class="list-unstyled">
+																				<li><a href="gird.html">Dresses</a></li>
+																				<li><a href="list.html">Bags</a></li>
+																				<li><a href="gird.html">Jeans</a></li>
+																				<li><a href="list.html">Shirts</a></li>
+																				<li><a href="gird.html">T-shirts</a></li>
+																				<li><a href="list.html">Wallets</a></li>
+																				<li><a href="gird.html">Hair Accessories</a></li>
+																				<li><a href="list.html">Short dresses</a></li>
+
+																			</ul>
+																		</div>
+																		<div class="col-md-3">
+																			<div class="header-menu">
+																				<h4>Men</h4>
+																			</div>
+																			<ul class="list-unstyled">
+																				<li><a href="gird.html">Jeans</a></li>
+																				<li><a href="list.html">Shirts</a></li>
+																				<li><a href="gird.html">T-shirts</a></li>
+																				<li><a href="list.html">Blazers</a></li>
+																				<li><a href="gird.html">Sport Bags</a></li>
+																				<li><a href="list.html">Jacekts</a></li>
+																				<li><a href="gird.html">Coats</a></li>
+																				<li><a href="list.html">Sandals</a></li>
+																			</ul>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="banner">
+																				<a href="#">
+																					<img alt="" src="img/widget/2.jpg">
+																				</a> 
+																			</div>
+																		</div>
+																	</div>
+
+																</div>
+															</li>
+														</ul>
+													</li>
+													
+													
+													<li class="dropdown sauget-fw menuBB"><a class="dropdown-toggle" data-toggle="dropdown" href="gird.html">accessories</a>
+														<ul class="dropdown-menu list-unstyled  fadeInUp animated">
+															<li>
+																<div class="sauget-content">
+																	<div class="row">
+																		<div class="col-md-3">
+																			<div class="header-menu">
+																				<h4>Women</h4>
+																			</div> 
+																			<ul class="list-unstyled">
+																				<li><a href="gird.html">Dresses</a></li>
+																				<li><a href="gird.html">Bags</a></li>
+																				<li><a href="gird.html">Jeans</a></li>
+																				<li><a href="gird.html">Shirts</a></li>
+																				<li><a href="gird.html">T-shirts</a></li>
+																				<li><a href="gird.html">Wallets</a></li>
+																				<li><a href="gird.html">Hair Accessories</a></li>
+																				<li><a href="gird.html">Short dresses</a></li>
+
+																			</ul>
+																		</div>
+																		<div class="col-md-3">
+																			<div class="header-menu">
+																				<h4>Men</h4>
+																			</div>
+																			<ul class="list-unstyled">
+																				<li><a href="gird.html">Jeans</a></li>
+																				<li><a href="gird.html">Shirts</a></li>
+																				<li><a href="gird.html">T-shirts</a></li>
+																				<li><a href="gird.html">Blazers</a></li>
+																				<li><a href="gird.html">Sport Bags</a></li>
+																				<li><a href="gird.html">Jacekts</a></li>
+																				<li><a href="gird.html">Coats</a></li>
+																				<li><a href="gird.html">Sandals</a></li>
+																			</ul>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="banner">
+																				<a href="#">
+																					<img alt="" src="img/widget/2.jpg">
+																				</a> 
+																			</div>
+																		</div>
+																	</div>
+
+																</div>
+															</li>
+														</ul>
+													</li>
+													<li class="menuBB"><a href="about.html">about</a></li>
+													<li class="menuBB"><a href="contact.html">contact us</a></li>
+													<li class="menuBB"><a href="blog-one.html">Blog</a></li>
+												</ul>
+											</div>
+										</div>
+									</nav>
+									<!-- DESKTOP NAVIGATION -->
+									
+									<!-- MOBILE ONLY CONTENT -->
+									<div class="only-for-mobile">
+										<ul class="ofm">
+											<li class="m_nav"><i class="fa fa-bars"></i> Menu</li>
+											<li>
+												<!-- SHOPPING CART -->
+												<div class="shopping-cart floatright">
+													<a title="View your shopping cart" href="" class="cart-contents">
+														<span class="count">0 items</span>
+														&#45;
+														<span class="amount">£0.00</span>
+													</a>
+												</div>
+												<!-- SHOPPING CART -->
+											</li>
+										</ul>
+
+										<!-- MOBILE MENU -->
+										<div class="mobi-menu">
+											<div id='cssmenu'>
+												<ul>
+													<li><a href="index.html"><span>Home</span></a></li>
+													<li><a href="gird.html"><span>Man</span></a></li>
+													<li class='has-sub'>
+														<a href='#'><span>women</span></a>
+														<ul>
+															<li class='has-sub'>
+																<a href='#'><span>women bag</span></a>
+																<ul>
+																	<li><a href="list.html"><span>bag items</span></a></li>
+																	<li><a href="list.html"><span>bag items</span></a></li>
+																	<li><a href="list.html"><span>bag items</span></a></li>
+																	<li><a href="list.html"><span>bag items</span></a></li>
+																	<li><a href="list.html"><span>bag items</span></a></li>
+																	<li class="last"><a href="list.html"><span>bag items</span></a></li>
+																</ul>
+															</li>
+															<li class='has-sub'>
+																<a href='#'><span>Accessories</span></a>
+																<ul>
+																	<li><a href="./portfolio_4col.html"><span>Accessories 1</span></a></li>
+																	<li><a href="./portfolio_3col.html"><span>Accessories 2</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>Accessories 3</span></a></li>
+																	<li class='last'><a href="404.html"><span>Accessories 5</span></a></li>
+																</ul>
+															</li>
+															<li class='has-sub'>
+																<a href='#'><span>Woman Dresses</span></a>
+																<ul>
+																	<li><a href="./category-page1.html"><span>Dresses 1</span></a></li>
+																	<li><a href="./category-page2.html"><span>Dresses 2</span></a></li>
+																	<li><a href="./product-page.html"><span>Dresses 3</span></a></li>
+																	<li><a href="./shopping_cart.html"><span>Dresses 4</span></a></li>
+																	<li class='last'><a href="./shop_checkout.html"><span>Dresses 5</span></a></li>
+																</ul>
+															</li>
+															<li class="img-nav">
+																<div class="in1">
+																	<div class="col-md-6">
+																		<a href="index.html"><img src="img/widget/1.jpg" alt=""></a>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</li>
+													<li class='has-sub'>
+														<a href='#'><span>fashion</span></a>
+														<ul>
+															<li class='has-sub'>
+																<a href='#'><span>Women</span></a>
+																<ul>
+																	<li><a href="list.html"><span>Dresses</span></a></li>
+																	<li><a href="list.html"><span>Bags</span></a></li>
+																	<li><a href="list.html"><span>Jeans</span></a></li>
+																	<li><a href="list.html"><span>Shirts</span></a></li>
+																	<li><a href="list.html"><span>T-shirts</span></a></li>
+																	<li><a href="list.html"><span>Wallets</span></a></li>
+																	<li><a href="list.html"><span>Hair Accessories</span></a></li>
+																	<li class="last"><a href="list.html"><span>Short dresses</span></a></li>
+																</ul>
+															</li>
+															<li class='has-sub'>
+																<a href='#'><span>Man</span></a>
+																<ul>			
+																	<li><a href="./portfolio_4col.html"><span>Jeans</span></a></li>
+																	<li><a href="./portfolio_3col.html"><span>Shirts</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>T-shirts</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>Blazers</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>Sport Bags</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>Coats</span></a></li>
+																	<li class='last'><a href="404.html"><span>Sandals</span></a></li>
+																</ul>
+															</li>
+															<li class="img-nav">
+																<div class="in1">
+																	<div class="col-md-6">
+																		<a href="index.html"><img src="img/widget/2.jpg" alt=""></a>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</li>
+													<li class='has-sub'>
+														<a href='#'><span>accessories</span></a>
+														<ul>
+															<li class='has-sub'>
+																<a href='#'><span>Women</span></a>
+																<ul>
+																	<li><a href="list.html"><span>Dresses</span></a></li>
+																	<li><a href="list.html"><span>Bags</span></a></li>
+																	<li><a href="list.html"><span>Jeans</span></a></li>
+																	<li><a href="list.html"><span>Shirts</span></a></li>
+																	<li><a href="list.html"><span>T-shirts</span></a></li>
+																	<li><a href="list.html"><span>Wallets</span></a></li>
+																	<li><a href="list.html"><span>Hair Accessories</span></a></li>
+																	<li class="last"><a href="list.html"><span>Short dresses</span></a></li>
+																</ul>
+															</li>
+															<li class='has-sub'>
+																<a href='#'><span>Man</span></a>
+																<ul>			
+																	<li><a href="./portfolio_4col.html"><span>Jeans</span></a></li>
+																	<li><a href="./portfolio_3col.html"><span>Shirts</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>T-shirts</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>Blazers</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>Sport Bags</span></a></li>
+																	<li><a href="./portfolio_2col.html"><span>Coats</span></a></li>
+																	<li class='last'><a href="404.html"><span>Sandals</span></a></li>
+																</ul>
+															</li>
+															<li class="img-nav">
+																<div class="in1">
+																	<div class="col-md-6">
+																		<a href="index.html"><img src="img/widget/2.jpg" alt=""></a>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</li>
+													<li><a href="about.html"><span>About</span></a></li>
+													<li><a href="contact.html"><span>Contact us</span></a></li>
+													<li><a href="blog-one.html"><span>Blog</span></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- MOBILE ONLY CONTENT -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER -->
+        
+
+		<!-- HOME SLIDER -->
+		<div class="slider-wrap">
+			<div class="fullwidthbanner-container">
+				<div class="fullwidthbanner1">
+					<ul>
+						<li data-transition="random" data-slotamount="7" data-masterspeed="1000">
+							<img src="img/slider/3.jpg" alt="slide">
+							<div class="tp-caption large_black sfr" data-x="150" data-y="350" data-speed="1100" data-start="1100" data-easing="easeInOutBack" style="font-size: 18px; font-weight: bold; text-transform: uppercase; color: #FFF;font-family: Montserrat;">
+								fashion women’s
+							</div>
+							<div class="tp-caption large_black sfr" data-x="150" data-y="375" data-speed="1100" data-start="1100" data-easing="easeInOutBack" style="border-width: 2px; background-color: #ffffff; min-height: 1px;min-width: 400px;">
+							</div>
+							<div class="tp-caption large_black sfr" data-x="150" data-y="400" data-speed="1100" data-start="1400" data-easing="easeInOutBack" style="font-family: Raleway; font-size: 100px; font-weight: 800; line-height:80px;text-transform: uppercase; color: #fff; text-shadow: 0 0 2px rgba(0,0,0,.05)">
+								collection
+							</div>
+							<div class="tp-caption large_black sfr" data-x="150" data-y="500" data-speed="1100" data-start="1400" data-easing="easeInOutBack" style="font-family: Arial; font-size: 12px; font-weight: normal; color: #FFF;line-height:14px;text-transform: uppercase;">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+							</div>
+							<div class="tp-caption lfb carousel-caption-inner" data-x="150" data-y="550" data-speed="1300" data-start="1700" data-easing="easeInOutBack" style="font-family: Montserrat; font-size: 12px; font-weight: bold; text-transform: uppercase; color: #F3F3F3;">
+								<a href="#" class="s-btn" style="background: none repeat scroll 0 0 #c2a26f;color: #ffffff;display: block;padding: 12px 28px;">shop now</a>
+							</div>
+						</li>
+
+						<li data-transition="random" data-slotamount="7" data-masterspeed="1000">
+							<img src="img/slider/4.jpg" alt="slide">
+							<div class="tp-caption large_black sfr" data-x="150" data-y="350" data-speed="1100" data-start="1100" data-easing="easeInOutBack" style="font-size: 18px; font-weight: bold; text-transform: uppercase; color: #FFF;font-family: Montserrat;">
+								fashion women’s
+							</div>
+							<div class="tp-caption large_black sfr" data-x="150" data-y="375" data-speed="1100" data-start="1100" data-easing="easeInOutBack" style="border-width: 2px; background-color: #ffffff; min-height: 1px;min-width: 400px;">
+							</div>
+							<div class="tp-caption large_black sfr" data-x="150" data-y="400" data-speed="1100" data-start="1400" data-easing="easeInOutBack" style="font-family: Raleway; font-size: 100px; font-weight: 800; line-height:80px;text-transform: uppercase; color: #fff; text-shadow: 0 0 2px rgba(0,0,0,.05)">
+								Latest collection
+							</div>
+							<div class="tp-caption large_black sfr" data-x="150" data-y="500" data-speed="1100" data-start="1400" data-easing="easeInOutBack" style="font-family: Arial; font-size: 12px; font-weight: normal; color: #FFF;line-height:14px;text-transform: uppercase;">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+							</div>
+							<div class="tp-caption lfb carousel-caption-inner" data-x="150" data-y="550" data-speed="1300" data-start="1700" data-easing="easeInOutBack" style="font-family: Montserrat; font-size: 12px; font-weight: bold; text-transform: uppercase; color: #F3F3F3;">
+								<a href="#" class="s-btn" style="background: none repeat scroll 0 0 #c2a26f;color: #ffffff;display: block;padding: 12px 28px;">shop now</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- HOME SLIDER -->
+		
+        <!-- MAIN CONTENT AREA -->
+        <div class="maincontent-area">
+					<div class="special-wid-h2">
+						<div class="special-overlay"></div>
+						<div class="special-bg-h2">
+							<img src="img/products/home2/1.jpg" alt="">
+						</div>
+						<div class="special-text-h2 textwhite text-center text-uppercase">
+							<h4>fashion for men</h4>
+							<span>clothing</span>
+							<br>
+							<a class="read-more-h2" href="gird.html">get the look <i class="fa fa-angle-double-right"></i></a>
+						</div>
+					</div> 
+					<div class="special-wid-h2">
+						<div class="special-overlay"></div>
+						<div class="special-bg-h2">
+							<img src="img/products/home2/2.jpg" alt="">
+						</div>
+						<div class="special-text-h2 s-second-f-s text-center text-uppercase">
+							<h4>sauget fashion</h4>
+							<span>collection</span>
+							<br>
+							<a class="read-more-h2" href="gird.html">get the look <i class="fa fa-angle-double-right"></i></a>
+						</div>
+					</div> 
+					<div class="special-wid-h2">
+						<div class="special-overlay"></div>
+						<div class="special-bg-h2">
+							<img src="img/products/home2/3.jpg" alt="">
+						</div>
+						<div class="special-text-h2 textwhite s-second-f-t text-center text-uppercase">
+							<h4>accessories</h4>
+							<span>-50% sale</span>
+							<br>
+							<a class="read-more-h2" href="gird.html">get the look <i class="fa fa-angle-double-right"></i></a>
+						</div>
+					</div> 
+					<div class="special-wid-h2">
+						<div class="special-overlay"></div>
+						<div class="special-bg-h2">
+							<img src="img/products/home2/4.jpg" alt="">
+						</div>
+						<div class="special-text-h2 text-center s-second-f-t text-uppercase">
+							<h4>shoes style</h4>
+							<span>sale up to 30%</span>
+							<br>
+							<a class="read-more-h2" href="gird.html">get the look <i class="fa fa-angle-double-right"></i></a>
+						</div>
+					</div>                                                
+        </div>
+		<!-- MAIN CONTENT AREA -->
+		
+		<!-- PRODUCT TABS -->
+		<div class="product-tabs">
+			<div class="container">
+				<div role="tabpanel">
+					<!-- PRODUCT NAV -->
+					<div class="product-tabs-title">
+						<ul class="tabs-head" role="tablist">
+							<li class="active"><a href="#tab_one" role="tab" data-toggle="tab">Featured Products</a></li>
+							<li><a href="#tab_two" role="tab" data-toggle="tab">Most Viewed Products</a></li>
+							<li><a href="#tab_three" role="tab" data-toggle="tab">New Products</a></li>
+						</ul>
+					</div>
+					<!-- PRODUCT NAV -->
+					
+					<!-- PRODUCTS -->
+					<div class="tab-content">
+						<!-- Featured Products -->
+						<div role="tabpanel" class="tab-pane fade in active" id="tab_one">
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/1.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/2.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/2.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/1.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/3.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/5.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/4.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/3.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/5.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/4.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/6.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/11.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/7.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/8.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/8.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/7.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Featured Products -->
+						
+						<!-- Most Viewed Products -->
+						<div role="tabpanel" class="tab-pane fade" id="tab_two">
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/5.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/4.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/6.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/11.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/7.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/8.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/8.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/7.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/1.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/2.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/2.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/1.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/3.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/5.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/4.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/3.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Most Viewed Products -->
+						
+						<!-- New Products -->
+						<div role="tabpanel" class="tab-pane fade" id="tab_three">
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/3.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/5.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/6.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/11.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/1.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/2.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/4.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/3.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/5.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/4.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/2.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/1.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/7.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/8.jpg" alt="">
+											<div class="offer-nostock">sale</div>
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+												<div class="product-discount">-25%</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="product-singleArea">
+										<div class="product-img">
+											<div class="overlay"></div>
+											<img class="img-responsive primary_image" src="img/products/8.jpg" alt="">
+											<img class="img-responsive hover_image" src="img/products/7.jpg" alt="">
+											<div class="product-cart-area">
+												<div class="btn-others">
+													<ul>
+														<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+														<li><a href=""><i class="fa fa-exchange"></i></a></li>
+														<li><a href="detail.html"><i class="fa fa-expand"></i></a></li>
+													</ul>
+												</div>
+												<div class="btn-add-to-cart cart-btn"><a href="#">ADD TO CART</a></div>
+											</div>
+										</div>
+										<div class="product-details">
+											<div class="product-title"><a href="detail.html">FLORAL LACE SHIFT DRESS</a></div>
+											<div class="product-pd">
+												<div class="product-price">£50.00</div>
+											</div>
+											<div class="product-review">
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- New Products -->
+					</div>
+					<!-- PRODUCTS -->
+				</div>
+			</div>
+		</div>
+		<!-- PRODUCT TABS -->		
+			
+		<!-- Product Sale Category -->
+		<div class="sale-category">
+			<div class="container">
+				<div class="row">
+					<!-- Hot Deal Products -->
+					<div class="col-md-6">
+						<div class="text-center">
+							<div class="section-title"><span>hot deal products</span></div>
+						</div>
+
+						<div class="hot-deal-product">
+							<div class="col-md-6 col-sm-6 paddingLeft">
+								<div class="product-img ">
+									<img class="img-responsive" src="img/products/hotDeal/1.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 paddingRight">
+								<div class="product-details-list">
+									<h6><a class="hotdealTitle" href="#">FLORAL LACE SHIFT DRESS</a></h6>
+									<div class="product-review-list">
+										<ul>
+											<li>
+												<div class="star">
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+													<span class="yes"><i class="fa fa-star"></i></span>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="product-pd-list">
+										<div class="product-price">£50.00</div>
+										<div class="product-discount">-25%</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+									<div class="product-cart-area-list">
+										<div class="dealAddToCart cart-btn"><a href="#">ADD TO CART</a></div>
+										<div class="btn-others-list">
+											<ul>
+												<li><a href=""><i class="fa fa-heart-o"></i></a></li>
+												<li><a href=""><i class="fa fa-exchange"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="hotDealProduct">
+										<div data-countdown="2016/01/01"></div>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- Hot Deal Products -->
+
+					
+					<!-- Best Sellers Category -->
+					<div class="col-md-3 col-sm-6">
+						<div class="top-r-pdct">
+							<div class="checkTitle">
+								<h5 class="ct-design">Best Sellers</h5>
+							</div>
+							<ul>
+								<li>
+									<a href="#"><img alt="" src="img/products/top-rated/3.jpg"></a>
+									<div class="top-sale-info">
+										<h6><a href="#">FLORAL LACE SHIFT DRESS</a></h6>
+										<div class="top-product-review">
+											<div class="star">
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+											</div>
+										</div>
+										<div class="top-product-price">£50.00.00</div>
+									</div>
+								</li>
+								<li>
+									<a href="#"><img alt="" src="img/products/top-rated/4.jpg"></a>
+									<div class="top-sale-info">
+										<h6><a href="#">FLORAL LACE SHIFT DRESS</a></h6>
+										<div class="top-product-review">
+											<div class="star">
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+											</div>
+										</div>
+										<div class="top-product-price">£50.00.00</div>
+									</div>
+								</li>
+								<li>
+									<a href="#"><img alt="" src="img/products/top-rated/2.jpg"></a>
+									<div class="top-sale-info">
+										<h6><a href="#">FLORAL LACE SHIFT DRESS</a></h6>
+										<div class="top-product-review">
+											<div class="star">
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+											</div>
+										</div>
+										<div class="top-product-price">£50.00.00</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Best Sellers Category -->
+					
+					<!-- On Sale Category -->
+					<div class="col-md-3 col-sm-6">
+						<div class="top-r-pdct">
+							<div class="checkTitle">
+								<h5 class="ct-design">On Sale</h5>
+							</div>
+							<ul>
+								<li>
+									<a href="#"><img alt="" src="img/products/top-rated/5.jpg"></a>
+									<div class="top-sale-info">
+										<h6><a href="#">FLORAL LACE SHIFT DRESS</a></h6>
+										<div class="top-product-review">
+											<div class="star">
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+											</div>
+										</div>
+										<div class="top-price-red">£50.00.00</div>
+									</div>
+								</li>
+								<li>
+									<a href="#"><img alt="" src="img/products/top-rated/6.jpg"></a>
+									<div class="top-sale-info">
+										<h6><a href="#">FLORAL LACE SHIFT DRESS</a></h6>
+										<div class="top-product-review">
+											<div class="star">
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+											</div>
+										</div>
+										<div class="top-price-red">£50.00.00</div>
+									</div>
+								</li>
+								<li>
+									<a href="#"><img alt="" src="img/products/top-rated/1.jpg"></a>
+									<div class="top-sale-info">
+										<h6><a href="#">FLORAL LACE SHIFT DRESS</a></h6>
+										<div class="top-product-review">
+											<div class="star">
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+												<span class="yes"><i class="fa fa-star"></i></span>
+											</div>
+										</div>
+										<div class="top-price-red">£50.00.00</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Product Sale Category -->
+		
+		
+		<!-- Testimonial -->
+		<div id="testimonial">
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="section-title"><span>Testimonial</span></div>
+				</div>
+				<div class="col-md-12">
+					<div class="testyslider">
+						<ul class="slides">
+							<li>
+								<div class="author_img">
+									<img src="img/testimonial/author_1.jpg" alt="">
+								</div>
+								<div class="author_testy">
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</p>
+									<span class="author_name">
+										arida jome 
+									</span>
+									<span class="author_position">
+										- Customer
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="author_img">
+									<img src="img/testimonial/author_2.jpg" alt="">
+								</div>
+								<div class="author_testy">
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</p>
+									<span class="author_name">
+										arida jome 
+									</span>
+									<span class="author_position">
+										- Customer
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="author_img">
+									<img src="img/testimonial/author_1.jpg" alt="">
+								</div>
+								<div class="author_testy">
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</p>
+									<span class="author_name">
+										arida jome 
+									</span>
+									<span class="author_position">
+										- Customer
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="author_img">
+									<img src="img/testimonial/author_2.jpg" alt="">
+								</div>
+								<div class="author_testy">
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</p>
+									<span class="author_name">arida jome</span>
+									<span class="author_position"> - Customer</span>
+								</div>
+							</li>
+							<li>
+								<div class="author_img">
+									<img src="img/testimonial/author_1.jpg" alt="">
+								</div>
+								<div class="author_testy">
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</p>
+									<span class="author_name">
+										arida jome 
+									</span>
+									<span class="author_position">
+										- Customer
+									</span>
+								</div>
+							</li>
+							<li>
+								<div class="author_img">
+									<img src="img/testimonial/author_2.jpg" alt="">
+								</div>
+								<div class="author_testy">
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</p>
+									<span class="author_name">
+										arida jome 
+									</span>
+									<span class="author_position">
+										- Customer
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!-- Testimonial -->
+		
+		<!-- Blog -->
+		<div id="blog-col">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="section-title"><span>latest news</span></div>
+					</div>
+					<div class="bolg-col">
+						<div class="col-md-3 col-sm-6">
+							<div class="blog-post-area">
+								<div class="blog-post-col">
+									<div class="blog-thumb">
+										<img src="img/blog/1.jpg" alt="">
+										<div class="post-meta-date post-meta-home">
+											<a href="#">March  17ST, 2015</a>
+										</div>
+									</div>
+									<div class="blog-post">	
+										<h5><a href="blog-single.html">Another post with a gallery</a></h5>
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis...</p>
+									</div>
+								</div>
+								<div class="post-meta">
+									<ul>
+										<li class="post-author">by: 
+											<a href=""><span>Admin</span></a>
+										</li>
+										<li class="post-cat">
+											<a href="#">Template  web design</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="blog-post-area">
+								<div class="blog-post-col">
+									<div class="blog-thumb">
+										<img src="img/blog/2.jpg" alt="">
+										<div class="post-meta-date post-meta-home">
+											<a href="#">March  17ST, 2015</a>
+										</div>
+									</div>
+									<div class="blog-post">	
+										<h5><a href="blog-single.html">Another post with a gallery</a></h5>
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis...</p>
+									</div>
+								</div>
+								<div class="post-meta">
+									<ul>
+										<li class="post-author">by: 
+											<a href=""><span>Admin</span></a>
+										</li>
+										<li class="post-cat">
+											<a href="#">Template  web design</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="blog-post-area">
+								<div class="blog-post-col">
+									<div class="blog-thumb">
+										<img src="img/blog/3.jpg" alt="">
+										<div class="post-meta-date post-meta-home">
+											<a href="#">March  17ST, 2015</a>
+										</div>
+									</div>
+									<div class="blog-post">	
+										<h5><a href="blog-single.html">Another post with a gallery</a></h5>
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis...</p>
+									</div>
+								</div>
+								<div class="post-meta">
+									<ul>
+										<li class="post-author">by: 
+											<a href=""><span>Admin</span></a>
+										</li>
+										<li class="post-cat">
+											<a href="#">Template  web design</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="blog-post-area">
+								<div class="blog-post-col">
+									<div class="blog-thumb">
+										<img src="img/blog/4.jpg" alt="">
+										<div class="post-meta-date post-meta-home">
+											<a href="#">March  17ST, 2015</a>
+										</div>
+									</div>
+									<div class="blog-post">	
+										<h5><a href="blog-single.html">Another post with a gallery</a></h5>
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis...</p>
+									</div>
+								</div>
+								<div class="post-meta">
+									<ul>
+										<li class="post-author">by: 
+											<a href=""><span>Admin</span></a>
+										</li>
+										<li class="post-cat">
+											<a href="#">Template  web design</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Blog -->
+		
+		<!-- Special -->
+		<div id="special">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="special-box-col">
+							<div class="col-md-3 col-sm-3 text-center special-box">
+								<span class="special-icon"><i class="fa fa-plane"></i></span>
+								<h5><a href="">FREE & fast SHIPPING</a></h5>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse</p>
+							</div>
+							<div class="col-md-3 col-sm-3 text-center special-box">
+								<span class="special-icon"><i class="fa fa-stack-overflow"></i></span>
+								<h5><a href="">FREE & fast SHIPPING</a></h5>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse</p>
+							</div>
+							<div class="col-md-3 col-sm-3 text-center special-box">
+								<span class="special-icon"><i class="fa fa-sellsy"></i></span>
+								<h5><a href="">FREE & fast SHIPPING</a></h5>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse</p>
+							</div>
+							<div class="col-md-3 col-sm-3 text-center special-box">
+								<span class="special-icon"><i class="fa fa-whatsapp"></i></span>
+								<h5><a href="">FREE & fast SHIPPING</a></h5>
+								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Service -->
+		
+		<!-- Footer -->
+		<footer>
+			<!-- Footer Widget -->
+			<div id="widget-col">
+				<div class="container">
+					<div class="row">
+						<div class="footer-top">
+							<div class="col-md-9 col-sm-8 widget-left">
+								<!-- Newsletter Widget -->
+								<div class="col-md-4 footer-widget">
+									<h5>NEWSLETTER</h5>
+									<p>Subscribe to the Sauget mailing list to receive updates on new arrivals, special offers and other discount information.</p>
+									<form class="newsletter">
+										<input type="text">
+										<br>
+										<button type="submit">Subscribe</button>
+									</form>
+								</div>
+								<!-- Newsletter Widget -->
+								
+								<!-- Useful Link Widget -->
+								<div class="col-md-4 footer-widget">
+									<h5>useful link</h5>
+									<nav>
+										<ul class="use_link">
+											<li><a href="#">Orders and Returns</a></li>
+											<li><a href="#">Search Items</a></li>
+											<li><a href="#">Advance Search</a></li>
+											<li><a href="#">Affiliates</a></li>
+											<li><a href="#">Group Sales</a></li>
+										</ul>
+									</nav>
+								</div>
+								<!-- Useful Link Widget -->
+								
+								<!-- Recent Post Widget -->
+								<div class="col-md-4 footer-widget">
+									<h5>RECENT Post</h5>
+									<div class="rposts">
+										<ul>
+											<li>
+												<img alt="" src="img/rposts/1.jpg">
+												<div class="pposts-info">
+													<h6><a href="blog-single.html">Another post with a gallery</a></h6>
+													<p>Feb 16 / 02/  2015</p>
+												</div>
+											</li>
+											<li>
+												<img alt="" src="img/rposts/2.jpg">
+												<div class="pposts-info">
+													<h6><a href="blog-single.html">Another post with a gallery</a></h6>
+													<p>Feb 16 / 02/  2015</p>
+												</div>
+											</li>
+											<li>
+												<img alt="" src="img/rposts/3.jpg">
+												<div class="pposts-info">
+													<h6><a href="blog-single.html">Another post with a gallery</a></h6>
+													<p>Feb 16 / 02/  2015</p>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- Recent Post Widget -->
+								
+								<!-- Payment PNG Widget -->
+								<div class="col-md-4 footer-widget">
+									<div class="payment">
+										<a href=""><img src="img/payment/payment.png" alt=""></a>
+									</div>
+								</div>
+								<!-- Payment PNG Widget -->
+							</div>
+							<div class="col-md-3 col-sm-4 widget-right">
+								<!-- About Widget -->
+								<div class="col-md-12 footer-widget">
+									<div class="about-text">
+										<img src="img/logo.png" alt="">
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ...</p>
+									</div>
+								</div>
+								<!-- About Widget -->
+								
+								<!-- Social Shear Widget -->
+								<div class="col-md-12 footer-widget">
+									<div class="social-area">
+										<ul class="socila_icon">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- Social Shear Widget -->
+								
+								<!-- Contact Widget -->
+								<div class="col-md-12 footer-widget">
+									<div class="connect-area">
+										<ul class="contact_purchase">
+											<li><a href="#">Contact us</a></li>
+											<li><a href="#">Purchase</a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- Contact Widget -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Widget -->
+			
+			<!-- Copyright -->
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<!-- Footer Menu -->
+						<div class="col-md-9 col-sm-8 footer-left">
+						<nav>
+							<ul class="footer-menu">
+								<li><a href="">Home</a></li>
+								<li><a href="">about</a></li>
+								<li><a href="">services</a></li>
+								<li><a href="">blog</a></li>
+								<li><a href="">contact</a></li>
+							</ul>
+						</nav>	
+						</div>
+						<!-- Footer Menu -->
+						
+						<!-- Copyright Text -->
+						<div class="col-md-3 col-sm-4 footer-right">
+							<p class="copyrightp">Copyright © 2015 BootExperts</p>
+						</div>
+						<!-- Copyright Text -->
+					</div>
+				</div>
+			</div>
+			<!-- Copyright -->
+		</footer>
+		<!-- Footer -->
+		
+
+		<!-- JS Libs
+		============================================ -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		
+		<!-- Include Libs & Plugins
+		============================================ -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- jquery Themepunch js -->
+		<script src="lib/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+		<script src="lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="lib/rs-plugin/rs.home.js"></script>
+		<script src="js/jquery.knob.min.js"></script>
+		<script src="js/jquery.ba-throttle-debounce.min.js"></script>
+		<!-- jquery Redcountdown js -->
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="js/jquery.redcountdown.js"></script>
+		<!-- jquery Map js -->
+		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="js/gmaps.js"></script>
+		<!-- jquery Flexslider js -->
+		<script src="lib/flexslider/jquery.flexslider.js"></script>
+		<!-- jquery ui js -->
+		<script src="js/jquery-ui.min.js"></script>
+        <script src="js/sauget-plugins.js"></script>
+	</body>
+</html>
